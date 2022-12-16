@@ -1,0 +1,25 @@
+TINY MAZE 
+
+1)DFS
+python pacman.py -l tinyMaze -p SearchAgent -a fn=dfs
+
+2)BFS 
+python pacman.py -l tinyMaze -p SearchAgent -a fn=bfs
+
+MEDIUM  MAZE
+
+1)DFS 
+python pacman.py -l mediumMaze -p SearchAgent -a fn=dfs
+
+2)BFS
+python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+
+3) UCS
+python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
+
+4)A* 
+python pacman.py -l mediumMaze -p SearchAgent -a fn=astar
+
+INFORMED SEARCH
+1)A* 
+python pacman.py -l trickySearch -p SearchAgent -a fn=astar,prob=FoodSearchProblem,heuristic=foodHeuristic
